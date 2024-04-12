@@ -1,0 +1,184 @@
+{
+    "title": "Testset",
+    "datasetInfo": "",
+    "embeddings": [
+        {
+            "name": "Class_Class",
+            "file": "Class_Class.json"
+        },
+        {
+            "name": "Colors_Colors",
+            "file": "Colors_Colors.json"
+        },
+        {
+            "name": "Class_Colors",
+            "file": "Class_Colors.json"
+        },
+        {
+            "name": "Class_Colorfulness",
+            "file": "Class_Colorfulness.json"
+        },
+        {
+            "name": "Colors_Colorfulness",
+            "file": "Colors_Colorfulness.json"
+        },
+        {
+            "name": "Colors_Contrast",
+            "file": "Colors_Contrast.json"
+        },
+        {
+            "name": "PCA",
+            "file": "PCA.json"
+        },
+        {
+            "name": "UMAP",
+            "file": "UMAP.json"
+        },
+        {
+            "name": "t-SNE",
+            "file": "TSNE.json"
+        },
+        {
+            "name": "PC1_PC2",
+            "file": "PC1_PC2.json"
+        },
+        {
+            "name": "Colors_PC1",
+            "file": "Colors_PC1.json"
+        },
+        {
+            "name": "PC1_Colors",
+            "file": "PC1_Colors.json"
+        }
+    ],
+    "clusters": {
+        "clusterList": [
+            "Class"
+        ],
+        "clusterColors": [
+            "#00ff00",
+            "#ff00ff",
+            "#0080ff",
+            "#ff8000",
+            "#80bf80",
+            "#b00246",
+            "#4201d2",
+            "#fe80d3",
+            "#387a08",
+            "#30fffa",
+            "#ffff00",
+            "#00ff80",
+            "#008080",
+            "#835aab",
+            "#9fb3f9",
+            "#7ee204",
+            "#febe66",
+            "#1d2263",
+            "#a46137",
+            "#fa3b71",
+            "#ff0000",
+            "#a423fe",
+            "#26c445",
+            "#5c2f04",
+            "#aaffb7",
+            "#3bb3cc",
+            "#043ec4",
+            "#c7fd50",
+            "#584ffe",
+            "#9606a3",
+            "#b3a502",
+            "#b7898a",
+            "#52fca4",
+            "#577869",
+            "#fbf59d",
+            "#bc5ee5",
+            "#cf3903",
+            "#ecbbf4",
+            "#03492b",
+            "#713868",
+            "#57fe46",
+            "#02b406",
+            "#f302a0",
+            "#fd3ce2",
+            "#02bd97",
+            "#0000ff",
+            "#80ffff",
+            "#f87d61"
+        ]
+    },
+    "total": 1000,
+    "sliders": [
+        {
+            "id": "Colorfulness",
+            "title": "Colorfulness",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#868981",
+            "min": 0.27,
+            "max": 147.47
+        },
+        {
+            "id": "Colors",
+            "title": "Colors",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#f283f8",
+            "min": 258,
+            "max": 83515
+        },
+        {
+            "id": "Contrast",
+            "title": "Contrast",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#85fea7",
+            "min": 2.897289120160856,
+            "max": 101.57670874535056
+        },
+        {
+            "id": "File Size",
+            "title": "File Size",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#ecc884",
+            "min": 4673,
+            "max": 48466
+        },
+        {
+            "id": "PC1",
+            "title": "PC1",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#83abfc",
+            "min": -25.49999999995,
+            "max": 25.49999999995
+        },
+        {
+            "id": "PC2",
+            "title": "PC2",
+            "info": "",
+            "typeNumber": "float",
+            "color": "#f1808a",
+            "min": -25.49999999995,
+            "max": 25.49999999995
+        }
+    ],
+    "info": [
+        "Prompt",
+        "Colors",
+        "Contrast",
+        "File Size"
+    ],
+    "search": [
+        {
+            "columnField": "Prompt",
+            "type": "selection"
+        }
+    ],
+    "url_prefix": "https://github.com/Collection-Space-Navigator/CSN/raw/main/example_data/testset_images/",
+    "sprite_side": 32,
+    "sprite_dir": "testset",
+    "sprite_number": 1,
+    "sprite_image_size": 64,
+    "sprite_actual_size": 2048
+}
